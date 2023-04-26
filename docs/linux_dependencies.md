@@ -84,7 +84,7 @@ Set the `PKG_CONFIG_PATH` env var to `/usr/lib/<target>/pkgconfig/`. For example
 export PKG_CONFIG_PATH="/usr/lib/x86_64-linux-gnu/pkgconfig/"
 ```
 
-## Arch / Manjaro
+## [Arch](https://archlinux.org) / [Manjaro](https://manjaro.org/)
 
 ```bash
 sudo pacman -S libx11 pkgconf alsa-lib
@@ -95,7 +95,7 @@ Install `pipewire-alsa` or `pulseaudio-alsa` depending on the sound server you a
 Depending on your graphics card, you may have to install one of the following:
 `vulkan-radeon`, `vulkan-intel`, or `mesa-vulkan-drivers`
 
-## Void
+## [Void](https://voidlinux.org/)
 
 ```bash
 sudo xbps-install -S pkgconf alsa-lib-devel libX11-devel eudev-libudev-devel
@@ -146,7 +146,7 @@ is an example of packaging a Bevy program in nix.
    sudo zypper install libudev-devel gcc-c++ alsa-lib-devel
 ```
 
-## Gentoo
+## [Gentoo](https://www.gentoo.org/)
 
 ```bash
    sudo emerge --ask libX11 pkgconf alsa-lib
